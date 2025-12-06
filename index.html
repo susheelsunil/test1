@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kerala Flavors | The Apple of Spice</title>
+    <style>
+        /* Base Apple-Inspired Styling */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f7; /* Light gray background */
+            color: #1d1d1f; /* Near black text */
+        }
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+        }
+        a {
+            text-decoration: none;
+            color: #0070c9; /* Apple Blue for links */
+        }
+        /* Header/Navigation Styling */
+        header {
+            width: 100%;
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(10px);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0 20px;
+            height: 44px; /* Standard Apple Nav Height */
+            font-size: 12px;
+            font-weight: 400;
+        }
+        nav a {
+            color: #1d1d1f;
+            padding: 0 15px;
+            opacity: 0.8;
+            transition: opacity 0.3s;
+        }
+        nav a:hover {
+            opacity: 1;
+        }
+        .logo {
+            font-size: 16px;
+            font-weight: 600;
+            margin-right: 30px;
+        }
+
+        /* Hero Section Styling */
+        .hero-section {
+            height: 70vh; /* Viewport height */
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-size: cover;
+            background-position: center;
+            /* Placeholder for a large, stunning image of a Sadya or Fish Curry */
+            background-image: url('https://via.placeholder.com/1600x900/000/fff?text=STUNNING+KERALA+FOOD+IMAGE');
+        }
+        .hero-section h1 {
+            font-size: 64px;
+            font-weight: 700;
+            margin-bottom: 10px;
+            margin-top: 0;
+        }
+        .hero-section p {
+            font-size: 28px;
+            font-weight: 400;
+            margin-bottom: 20px;
+        }
+        .hero-section .cta-link {
+            font-size: 21px;
+            font-weight: 400;
+            color: #2997ff;
+        }
+
+        /* Product Tile Styling (Alternating Layout) */
+        .product-tile {
+            min-height: 60vh;
+            text-align: center;
+            padding: 60px 20px;
+            margin-bottom: 15px; /* Slight separation */
+            overflow: hidden;
+            background-size: cover;
+            background-position: center;
+        }
+        .product-tile h2 {
+            font-size: 48px;
+            font-weight: 700;
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+        .product-tile p {
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+        .product-tile .cta-link {
+            font-size: 19px;
+            font-weight: 400;
+        }
+        /* Specific Tile Styles */
+        .tile-light {
+            background-color: #fff;
+            color: #1d1d1f;
+        }
+        .tile-dark {
+            background-color: #000;
+            color: #fff;
+        }
+        .tile-appam {
+            /* Placeholder image for Appam */
+            background-image: url('https://via.placeholder.com/800x400/fff/000?text=Appam+%26+Stew');
+            background-repeat: no-repeat;
+            background-position: bottom center;
+        }
+        .tile-fish {
+            /* Placeholder image for Fish Curry */
+            background-image: url('https://via.placeholder.com/800x400/0070c9/fff?text=Red+Fish+Curry');
+            background-repeat: no-repeat;
+            background-position: top center;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="#" class="logo">🥥 KeralaFlavors</a>
+            <a href="#">Thali</a>
+            <a href="#">Sadya</a>
+            <a href="#">Spices</a>
+            <a href="#">Stories</a>
+            <a href="#">🛒</a>
+        </nav>
+    </header>
+
+    <div class="hero-section">
+        <h1>Taste the Coast. Know the Story.</h1>
+        <p>Introducing the Malabar Collection. Crafted with Tradition.</p>
+        <a href="#" class="cta-link">Discover Now ></a>
+    </div>
+
+    <div class="container">
+        <div class="product-tile tile-light tile-appam">
+            <h2>The Appam. Simple Perfection.</h2>
+            <p>Airy center. Crispy edges. The perfect vehicle for coconut stew.</p>
+            <a href="#" class="cta-link">View Recipe ></a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="product-tile tile-dark tile-fish">
+            <h2>Malabar Red. The Heat of the Coast.</h2>
+            <p>Fiery spices, tangy *Kudampuli*, and fresh catch. An experience.</p>
+            <a href="#" class="cta-link" style="color: #2997ff;">Explore Ingredients ></a>
+        </div>
+    </div>
+
+    <footer style="padding: 40px; text-align: center; font-size: 12px; color: #6e6e73;">
+        <p>Copyright © 2025 Kerala Flavors. All rights reserved. | <a href="#">Privacy Policy</a></p>
+    </footer>
+
+</body>
+</html>
